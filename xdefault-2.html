@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Carousel Template for Bootstrap</title>
+
+   <!-- Bootstrap core CSS -->
+
+<link href="dist/css/bootstrap.min.css" rel="stylesheet" integrity="{{ site.cdn.css_hash }}" crossorigin="anonymous">
+
+<link href="dist/css/bootstrap.css" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" rel="stylesheet">
+
+<link href="assets/css/docs.min.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Yeni EKLENEN -->
+    <link rel="stylesheet" href="assets/slider/style.css">
+    <style media="screen">
+    .slick-prev{
+      background: #DDD;
+      border: none;
+      border-radius: none;
+      position: absolute;
+      top: 20%;
+      transform: translateY(-20%);
+      left: 0;
+      padding: 0.25em 0.5em;
+      box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+      z-index: 400;
+    }
+
+    .slick-next{
+      background: #DDD;
+      border: none;
+      border-radius: none;
+      position: absolute;
+      top: 20%;
+      transform: translateY(-20%);
+      right: 0;
+      padding: 0.25em 0.5em;
+      box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+      z-index: 400;
+    }
+    </style>
+    <!-- yENİ eklenen -->
+
+  </head>
+  <body>
+
+    <header>
+      <nav class="container navbar navbar-expand-md navbar-dark">
+
+        <a class="navbar-brand" href="#"><img src="assets/img/logo.png" height="100"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Link 1</a>
+            </li>
+             <li class="nav-item active">
+              <a class="nav-link" href="#">Link 2</a>
+            </li>
+             <li class="nav-item active">
+              <a class="nav-link" href="#">Link 3</a>
+            </li>
+             <li class="nav-item active">
+              <a class="nav-link" href="#">Link 4</a>
+            </li>
+
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+
+        <!-- Yeni EKlenen -->
+          <div class="slider-progress">
+            <div class="progress"></div>
+          </div>
+        <!-- Yeni EKlenen -->
+
+      </nav>
+
+    </header>
+
+
+    <main role="main">
+
+      <!-- Yeni EKlenen -->
+      <div class="slider-wrapper">
+        <div class="slider responsive lazy">
+          <div>
+            <div class="image">
+              <img class="slick-slider-img" alt="Alt" src="https://images.unsplash.com/photo-1464082354059-27db6ce50048?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1271&h=847&q=80" />
+            </div>
+          </div>
+          <div>
+            <div class="image">
+              <img class="slick-slider-img" alt="Alt" src="https://images.unsplash.com/photo-1445023835378-9fa9a2089f0c?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1271&h=953&q=80" />
+            </div>
+          </div>
+          <div>
+            <div class="image">
+              <img class="slick-slider-img" alt="Alt" src="https://images.unsplash.com/photo-1441040744088-a70b8213d4d4?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1271&h=847&q=80" />
+            </div>
+          </div>
+          <div>
+            <div class="image">
+              <img class="slick-slider-img" alt="Alt" src="https://images.unsplash.com/photo-1463608666382-cbb244a7bea2?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1271&h=1769&q=80" />
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Yeni EKlenen -->
+
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing" style="margin-top: -120px;">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row text-center">
+          <div class="col-lg-4" style="z-index: 3;">
+            <img class="rounded-circle" style="border: 5px solid #fff;" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4" style="z-index: 3;">
+            <img class="rounded-circle" style="border: 5px solid #fff;" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4" style="z-index: 3;">
+            <img class="rounded-circle" style="border: 5px solid #fff;" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    </main>
+
+    <!-- yeni eklenen -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js'></script>
+    <script  src="assets/slider/script.js"></script>
+    <!-- yeni eklenen -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+
+
+  <script src="dist/js/bootstrap.bundle.min.js" integrity="" crossorigin="anonymous"></script>
+
+  <script src="dist/js/bootstrap.bundle.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+
+
+  <script src="assets/js/docs.min.js"></script>
+
+  <script src="assets/js/vendor/anchor.min.js"></script>
+  <script src="assets/js/vendor/clipboard.min.js"></script>
+  <script src="assets/js/vendor/bs-custom-file-input.min.js"></script>
+  <script src="assets/js/src/application.js"></script>
+  <script src="assets/js/src/search.js"></script>
+  <script src="assets/js/src/ie-emulation-modes-warning.js"></script>
+  </body>
+</html>
